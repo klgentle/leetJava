@@ -7,5 +7,6 @@ public class MyTest {
         ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
         Student student = (Student) context.getBean("student");
         System.out.println(student.getName());
+        System.out.println(student.toString());
     }
 }
