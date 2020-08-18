@@ -7,11 +7,13 @@ import javax.annotation.Resource;
 
 public class People {
 
-    @Resource
+    @Resource (name = "cat2")
     private Cat cat;
+
     @Autowired
     @Qualifier(value = "dog22")
     private Dog dog;
+
     private String name;
 
     public Cat getCat() {

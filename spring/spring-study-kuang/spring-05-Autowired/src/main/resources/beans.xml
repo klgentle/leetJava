@@ -13,6 +13,7 @@
     <context:annotation-config/>
 
     <bean id="cat" class="com.klgentle.pojo.Cat"/>
+    <bean id="cat2" class="com.klgentle.pojo.Cat"/>
     <bean id="dog" class="com.klgentle.pojo.Dog"/>
     <bean id="dog22" class="com.klgentle.pojo.Dog"/>
     <bean id="people" class="com.klgentle.pojo.People"/>
