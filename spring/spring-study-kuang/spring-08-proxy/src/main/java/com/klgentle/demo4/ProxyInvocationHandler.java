@@ -26,9 +26,13 @@ public class ProxyInvocationHandler implements InvocationHandler {
 
     // 处理代理实例，并返回结果
     public java.lang.Object invoke(java.lang.Object proxy, Method method, java.lang.Object[] args) throws Throwable {
-
+        log(method.getName());
         java.lang.Object result = method.invoke(target, args);
         return result;
+    }
+
+    public void log(String msg) {
+        System.out.println("执行了" + msg + "方法");
     }
 
 }
