@@ -16,6 +16,7 @@
         <module>spring-07-appconfig</module>
         <module>spring-08-proxy</module>
         <module>spring-09-aop</module>
+        <module>spring-09-aop2</module>
     </modules>
 
     <dependencies>
