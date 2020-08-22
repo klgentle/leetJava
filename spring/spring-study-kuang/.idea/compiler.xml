@@ -16,5 +16,8 @@
         <module name="spring-04-di" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-ioc" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
