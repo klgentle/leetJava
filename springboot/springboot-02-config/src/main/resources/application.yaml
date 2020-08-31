@@ -1,0 +1,13 @@
+preson:
+  name: klgentle
+  age: 18
+  happy: true
+  birthday: 2020/01/27
+  maps: {k1: v1,k2: v2}
+  lists:
+    - music
+    - code
+    - girl
+  dog:
+    name: 旺财
+    age: 1

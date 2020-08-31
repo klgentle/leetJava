@@ -1,0 +1,18 @@
+{
+  "properties": [
+    {
+      "name": "preson.age",
+      "type": "java.lang.String",
+      "description": "Description for preson.age."
+    },
+    {
+      "name": "preson.name",
+      "type": "java.lang.String",
+      "description": "Description for preson.name."
+    },
+    {
+      "name": "preson.happy",
+      "type": "java.lang.String",
+      "description": "Description for preson.happy."
+    }
+  ] }
