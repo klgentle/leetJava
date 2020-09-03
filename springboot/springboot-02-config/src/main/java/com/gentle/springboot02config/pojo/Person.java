@@ -2,14 +2,26 @@ package com.gentle.springboot02config.pojo;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
+import org.springframework.validation.annotation.Validated;
 
+import javax.validation.constraints.Email;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
 @Component
 @ConfigurationProperties(prefix = "person")
+
+// javaConfig 绑定配置的值
+// 加载指定配置文件
+//@PropertySource(value = "classpath:klgentle.properties")
+
+@Validated
 public class Person {
+    // SPEL表达式取出变量
+    //@Value("${name}")
+
+    //@Email()  // 需要增加依赖
     private String name;
     private Integer age;
     private Boolean happy;
