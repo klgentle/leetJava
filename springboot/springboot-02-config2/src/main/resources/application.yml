@@ -3,7 +3,8 @@ server:
 spring:
   profiles:
     active: test
-
+# 用于查看配置是否生效
+debug: true
 ---
 server:
   port: 8084
